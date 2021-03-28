@@ -1,0 +1,7 @@
+@mixin logo($color, $size, $weight) {
+    font-family: $logo;
+    font-style: italic;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}
