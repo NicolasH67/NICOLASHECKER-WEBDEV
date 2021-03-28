@@ -5,3 +5,11 @@
     font-size: $size;
     font-weight: $weight;
 }
+
+@mixin text($color, $style, $size, $weight) {
+    font-family: $text;
+    font-style: $style;
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+}

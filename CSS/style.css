@@ -26,9 +26,49 @@ img {
   font-weight: 500;
   margin-left: 40px;
 }
+.header__nav {
+  display: none;
+}
 .header__nav__menu {
   display: flex;
   flex-direction: column;
+  list-style-type: none;
+}
+.header__nav__menu__element {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header__nav__menu__element__lien {
+  text-decoration: none;
+}
+
+.sectionCV {
+  border: 2px solid #a400aa96;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px #a400aa96;
+}
+.sectionCV__title {
+  margin-left: 5px;
+  font-family: "Lora";
+  font-style: italic;
+  color: #a400aa96;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.sectionCV__download {
+  margin-left: 10px;
+}
+.sectionCV__download__lien {
+  color: #000000;
+  font-family: "Roboto";
+  font-style: italic;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
