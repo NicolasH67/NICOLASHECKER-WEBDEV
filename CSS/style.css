@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-img {
-  width: 50px;
-  height: 50px;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .header {
   display: flex;
   flex-direction: column;
@@ -69,6 +65,60 @@ img {
   color: #000000;
   font-size: 1rem;
   font-weight: 500;
+}
+
+.actualite {
+  margin: 10px;
+}
+.actualite__title {
+  font-family: "Lora";
+  font-style: italic;
+  color: rgba(0, 117, 20, 0.733);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.actualite__sup {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.actualite__article {
+  border: 2px solid #a400aa96;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 25px !important;
+  box-shadow: 2px 2px 10px #a400aa96;
+}
+.actualite__article__title {
+  font-family: "Lora";
+  font-style: italic;
+  color: #a400aa96;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px;
+}
+.actualite__article__sup {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px;
+}
+.actualite__article__sup__lien {
+  font-style: italic !important;
+  font-weight: 600 !important;
+  color: #000000;
+}
+.actualite__article__img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
