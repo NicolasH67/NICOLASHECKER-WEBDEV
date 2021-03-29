@@ -1,0 +1,29 @@
+.footer {
+    margin: -10px;
+    padding-top: 10px;
+    background: #646464;
+    &__title {
+        margin: 10px;
+        @include logo(#00ff40, 13px, 600);
+        justify-content: center;
+        text-align: center;
+    }
+    &__contact {
+        margin: 10px;
+        &__nom {
+            @include text(#f700FF, normal, 1rem, 400); 
+            margin-bottom: -18px;
+        }
+        &__num {
+            @include text(#f700FF, normal, 1rem, 400); 
+            margin-bottom: -18px;
+        }
+        &__mail {
+            @include text(#f700FF, normal, 1rem, 400); 
+            padding-bottom: 15px;
+            &__lien {
+                @include text(#f700FF, italic, 1rem, 400); 
+            }
+        }
+    }
+}
